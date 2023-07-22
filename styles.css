@@ -1,0 +1,183 @@
+/* Basic styling for the body, header, and navigation */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styling for the About Me section */
+section#about {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-content img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+
+/* Styling for sections and footer */
+section {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+section#contact {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}
+
+.contact-info a {
+    color: #333;
+}
+
+/* Additional styling for social media icons */
+.contact-info i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/* Custom colors for each social media icon */
+.contact-info .fab.fa-facebook {
+    color: #3b5998; /* Facebook brand color */
+}
+
+.contact-info .fab.fa-twitter {
+    color: #1da1f2; /* Twitter brand color */
+}
+
+.contact-info .fab.fa-github {
+    color: #333; /* GitHub brand color */
+}
+
+/* Additional styling for the Projects section */
+section#projects {
+    padding: 2rem;
+    text-align: center;
+}
+
+.project {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.project h2 {
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.project a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
