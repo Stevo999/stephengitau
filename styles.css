@@ -39,22 +39,66 @@ section#about {
 }
 
 .about-content {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
 .about-content img {
     width: 200px;
+    height: 200px;
     border-radius: 50%;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow effect */
+}
+
+.about-content h1 {
+    font-size: 32px;
+    color: #333;
     margin-bottom: 1rem;
 }
 
 .about-content p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
+    color: #666;
     margin-bottom: 1rem;
 }
 
+.about-content p strong {
+    color: #3e64ff; /* Blue color */
+}
+
+
+/* Styling for contact information */
+.contact-info {
+    margin-top: 2rem;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info p strong {
+    color: #3e64ff; /* Blue color */
+}
+
+.contact-info a {
+    color: #007bff; /* Blue color */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
 
 /* Styling for sections and footer */
 section {
@@ -108,7 +152,7 @@ section#contact {
 }
 
 .contact-form button:hover {
-    background-color: #555;
+    background-color: #e22626;
 }
 
 .contact-info {
@@ -141,7 +185,7 @@ section#contact {
 }
 
 .contact-info .fab.fa-github {
-    color: #333; /* GitHub brand color */
+    color: #333333; /* GitHub brand color */
 }
 
 /* Additional styling for the Projects section */
@@ -150,14 +194,31 @@ section#projects {
     text-align: center;
 }
 
+/* Additional styling for the Projects section */
+section#projects {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
 .project {
     max-width: 600px;
     margin: 0 auto 2rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.project:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .project img {
     width: 100%;
     max-width: 400px;
+    height: auto;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
@@ -165,6 +226,7 @@ section#projects {
 .project h2 {
     font-size: 24px;
     margin-bottom: 0.5rem;
+    color: #3e64ff; /* Blue color */
 }
 
 .project p {
@@ -174,10 +236,42 @@ section#projects {
 }
 
 .project a {
-    color: #007bff;
+    color: #007bff; /* Blue color */
     text-decoration: none;
 }
 
 .project a:hover {
     text-decoration: underline;
+}
+
+/* Styling for project links */
+.project-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.project-links a {
+    margin: 0 1rem;
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #3e64ff; /* Blue color */
+    border-radius: 4px;
+    color: #3e64ff; /* Blue color */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.project-links a:hover {
+    background-color: #3e64ff; /* Blue color */
+    color: #fff;
+}
+
+.project-links a:first-child {
+    margin-left: 0;
+}
+
+.project-links a:last-child {
+    margin-right: 0;
 }
