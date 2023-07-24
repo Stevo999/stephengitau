@@ -227,11 +227,15 @@ footer {
     padding: 0.5rem 0;
     text-align: center;
     color: #fff;
+    
 }
 
 footer p {
     font-size: 14px;
     margin: 0;
+}
+footer h2{
+    font-size: 13px;
 }
 
 /* Additional styling for the Contact Form (if included) */
@@ -301,6 +305,7 @@ footer p {
         font-size: 12px;
         margin-right: 2px;
     }
+
 }
 
 /* Styling for the Footer Links */
