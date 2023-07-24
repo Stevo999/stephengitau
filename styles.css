@@ -198,7 +198,7 @@ section#projects {
 /* Footer */
 footer {
     background-color: #333;
-    padding: 1rem 0px;
+    padding: 0.5rem 0;
     text-align: center;
     color: #fff;
 }
@@ -245,4 +245,21 @@ footer p {
 
 .contact-form button:hover {
     background-color: #e22626;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%; /* Make input fields and textarea take the full width on smaller screens */
+    }
+
+    .contact-form button {
+        width: 100%; /* Make the button take the full width on smaller screens */
+    }
+
+    .contact-info {
+        grid-template-columns: 1fr; /* Change to a single column layout for contact info */
+        text-align: center; /* Center align the contact info content on smaller screens */
+    }
 }
