@@ -1,3 +1,7 @@
+<script>
+  mailjs.init('eYjp_YD9y7MUq-vql');
+</script>
+
 document.addEventListener("DOMContentLoaded", function() {
     const contactForm = document.getElementById("contactForm");
 
