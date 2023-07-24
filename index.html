@@ -53,24 +53,23 @@
 
         <!-- Add more projects as desired -->        
     </section>
-    <section id="contact">
-        <h1>Contact</h1>
-        <p>If you want to get in touch with me, feel free to use the contact form below or use the provided contact details.</p>
-        <div class="contact-form">
-            <form action="submit_contact_form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-       
+            <section id="contact">
+            <h1>Contact</h1>
+            <p>If you want to get in touch with me, feel free to use the contact form below or use the provided contact details.</p>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
     </section>
     <footer>
         <h2>Contact Information:</h2>
@@ -98,5 +97,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdn.mailjs.com/dist/mail.min.js"></script>
 </body>
 </html>
