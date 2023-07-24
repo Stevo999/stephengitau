@@ -86,6 +86,7 @@ section#about {
     line-height: 1.6;
     color: #0c0c0c;
     margin-bottom: 1rem;
+    display: flex;
 }
 
 .about-content p strong {
