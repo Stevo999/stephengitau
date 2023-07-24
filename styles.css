@@ -20,6 +20,13 @@ header {
     color: #fff;
     padding: 1rem;
 }
+nav ul li:last-child a:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+nav ul li.active a {
+    background-color: #007bff;
+    font-weight: bold;
+}
 
 nav ul {
     list-style: none;
@@ -235,7 +242,7 @@ footer p {
     margin: 0;
 }
 footer h2{
-    font-size: 13px;
+    font-size: 14px;
 }
 
 /* Additional styling for the Contact Form (if included) */
