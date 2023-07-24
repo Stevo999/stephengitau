@@ -111,13 +111,13 @@ section#contact {
 }
 
 .contact-info h2 {
-    font-size: 24px;
+    font-size: 16px;
     color: #333;
     margin-bottom: 1rem;
 }
 
 .contact-info p {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.6;
     color: #666;
     margin-bottom: 0.5rem;
@@ -132,7 +132,7 @@ section#contact {
 
 /* Social Media Icons */
 .contact-info i {
-    font-size: 20px;
+    font-size: 14px;
     margin-right: 5px;
     display: inline-block;
 }
@@ -298,8 +298,8 @@ footer p {
     }
 
     .contact-info i {
-        font-size: 14px;
-        margin-right: 5px;
+        font-size: 12px;
+        margin-right: 2px;
     }
 }
 
