@@ -65,8 +65,9 @@ section#about {
 .about-content p {
     font-size: 18px;
     line-height: 1.6;
-    color: #666;
+    color: #0c0c0c;
     margin-bottom: 1rem;
+    font-style: italic;
 }
 
 .about-content p strong {
