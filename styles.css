@@ -46,7 +46,7 @@ nav ul li {
         display: inline;
         margin-right: 1rem;
         padding-right: 3px;
-        
+        padding-right: 0px;
     }
 
 }
