@@ -63,7 +63,7 @@ nav ul li {
     .minimize-btn {
         display: block; /* Show the button on mobile devices */
         position: fixed;
-        bottom: 80px;
+        bottom: 120px;
         right: 0px;
         z-index: 1000;
         background-color: #9e9a9a;
