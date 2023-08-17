@@ -1,20 +1,15 @@
-
 document.addEventListener("DOMContentLoaded", function() {
-    const contactForm = document.getElementById("contactForm");
+    // Add the code for the form submission functionality here
 
-    contactForm.addEventListener("submit", function(event) {
-        event.preventDefault();
+    const minimizeButton = document.querySelector(".minimize-btn");
+    const navList = document.querySelector("nav ul");
 
-        // Get the form data
-        const formData = new FormData(contactForm);
-
-        // Send the form data to the server-side script for processing
-        sendFormData(formData);
+    minimizeButton.addEventListener("click", function() {
+        navList.classList.toggle("minimized");
     });
 });
 
 function sendFormData(formData) {
-    // Replace "submit_contact_form.php" with the URL of your server-side script that handles form submission
     const url = "submit_contact_form.php";
 
     fetch(url, {
@@ -24,7 +19,6 @@ function sendFormData(formData) {
     .then(response => {
         if (response.ok) {
             alert("Message sent successfully!");
-            // Optionally, you can clear the form fields after successful submission
             const contactForm = document.getElementById("contactForm");
             contactForm.reset();
         } else {

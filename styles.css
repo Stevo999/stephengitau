@@ -1,4 +1,9 @@
-/* Global styles */
+/* styles.css */
+
+nav ul.minimized li:not(.minimize-btn) {
+    display: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -38,7 +43,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 1rem;
-    padding-right: 40px;
+    padding-right: 30px;
     
 }
 @media (max-width: 768px){
